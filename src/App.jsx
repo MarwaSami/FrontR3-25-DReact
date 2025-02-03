@@ -3,6 +3,7 @@
 import Home from './Components/Home';
 import './App.css'
 import About from './Components/About';
+import Test from './Components/Test';
 // function component 
 function App() {
   //logic
@@ -12,8 +13,11 @@ function App() {
   return (
     <>
       <div class="flex">
-        <Home />
+        {/* 
+        <Test /> */}
         <About />
+        <Home />
+
       </div>
 
 
