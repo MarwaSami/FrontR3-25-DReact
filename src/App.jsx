@@ -1,24 +1,22 @@
 
+import Fav from './pages/Fav'
+import Form from './pages/Form'
+import Product from './pages/Product'
+import Todo from './pages/Todo'
 
-import Home from './Components/Home';
-import './App.css'
-import About from './Components/About';
-import Test from './Components/Test';
 // function component 
 function App() {
   //logic
-  let div = <div>hi from jsx</div>;
-
   //2- ui 
   return (
     <>
-      <div class="flex">
-        {/* 
-        <Test /> */}
-        <About />
-        <Home />
 
-      </div>
+      {/* <Product />
+      <hr />
+      <Fav /> */}
+
+      <Todo />
+
 
 
 
