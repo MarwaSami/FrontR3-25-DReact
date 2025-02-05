@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import './todo.css';
+import { useLocation } from 'react-router-dom';
 function Todo() {
+    // useprams => 
+    const loc = useLocation();
+    console.log(loc);
     const [input, setInput] = useState("");
     const [todos, setTodo] = useState([])
     const handle = (e) => {
